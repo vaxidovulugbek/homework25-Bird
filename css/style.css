@@ -11,9 +11,7 @@
   margin-left: -200px;
   margin-top: -200px;
 }
-.content:hover .one{
 
-}
 .one{
 position: absolute;
   left: 50%;
@@ -46,8 +44,8 @@ position: absolute;
  position: absolute;
   top: 50%;
   left: 50%;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   display: inline-block;
   border-radius:0 0 100px 0 ;
   background-color: #F8C83F;
@@ -69,10 +67,10 @@ position: absolute;
 
 .iye{
   position: absolute;
-  left: 170px;
+  left: 165px;
   bottom: 200px;
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   display: inline-block;
   border-radius:50%;
   background-color: #000;
@@ -86,11 +84,11 @@ position: absolute;
 }
 @keyframes koz{
   0%{
-    left: 200px;
+    left: 203px;
 
   }
   100%{
-    left: 175px;
+    left: 165px;
   }
 }
 
@@ -98,8 +96,8 @@ position: absolute;
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   display: inline-block;
   border-radius:0 0 100px 0 ;
   background-color: #fff;
@@ -123,8 +121,8 @@ position: absolute;
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   display: inline-block;
   border-radius:0 0 100px 0 ;
   background-color: #E0E6F4;
@@ -147,8 +145,8 @@ position: absolute;
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 40px;
   display: inline-block;
   border-radius:0 0 100px 0 ;
   background-color: #FDA600;
