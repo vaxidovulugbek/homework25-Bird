@@ -1,0 +1,180 @@
+.content{
+  background-color: #16213D;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+}
+.content:hover .one{
+
+}
+.one{
+position: absolute;
+  left: 50%;
+  width: 100px;
+  height: 200px;
+  display: inline-block;
+  border-radius:0 100px 100px 0;
+  background-color: red;
+  transform-origin: left center;
+
+  transform: rotate(180deg);
+  animation: k 2s infinite;
+  transition: all 2s ease-in-out;
+  z-index: 5;
+}
+@keyframes k{
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(180deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+
+.nouse{
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius:0 0 100px 0 ;
+  background-color: #F8C83F;
+  transform-origin: left top;
+  transform: rotate(-90deg);
+  animation: k1 1s infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+  z-index: 8;
+}
+@keyframes k1{
+  0%{
+    transform: rotate(-180deg);
+  }
+  100%{
+    transform: rotate(-90deg);
+  }
+}
+
+.iye{
+  position: absolute;
+  left: 170px;
+  bottom: 200px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  border-radius:50%;
+  background-color: #000;
+  transform-origin: center center;
+  transform: rotate(90deg);
+  animation: koz 1s infinite;
+  animation-direction: alternate;
+  transition: all 1s;
+  z-index: 7;
+
+}
+@keyframes koz{
+  0%{
+    left: 200px;
+
+  }
+  100%{
+    left: 175px;
+  }
+}
+
+.over-iye{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius:0 0 100px 0 ;
+  background-color: #fff;
+  transform-origin: left top;
+  transform: rotate(-180deg);
+  animation: koz-usti 1s infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+  z-index: 6;
+}
+@keyframes koz-usti{
+  0%{
+    transform: rotate(-450deg);
+  }
+  100%{
+    transform: rotate(-180deg);
+  }
+}
+
+.under-iye{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border-radius:0 0 100px 0 ;
+  background-color: #E0E6F4;
+  transform-origin: left top;
+  transform: rotate(90deg);
+  animation: koz-osti 1s infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+  z-index: 6;
+}
+@keyframes koz-osti{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(90deg);
+  }
+}
+.mouth{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  border-radius:0 0 100px 0 ;
+  background-color: #FDA600;
+  transform-origin: left top;
+  transform: rotate(0deg);
+  animation: ogiz 1s infinite;
+  animation-direction: alternate;
+  transition: all 1s ease-in-out;
+  z-index: 4;
+}
+@keyframes ogiz{
+  0%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
